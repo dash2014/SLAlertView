@@ -30,7 +30,7 @@
 
 - (IBAction)didTapButton:(id)sender
 {
-    SLAlertView *alertView = [[SLAlertView alloc] initWithTitle:@"woqu" message:@"123" okButtonTitle:@"324" cancelButtonTitle:@"23443"];
+    SLAlertView *alertView = [[SLAlertView alloc] initWithTitle:@"提醒" message:@"这是一个提醒哦" okButtonTitle:@"确定" cancelButtonTitle:@"取消"];
     [alertView show];
 }
 
